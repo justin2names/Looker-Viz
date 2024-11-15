@@ -1,0 +1,23 @@
+{
+    "name": "Sunburst",
+    "organization": "r42 communication Inc.",
+    "description": "Sunburst Visualization with drill-down option",
+    "logoUrl": "https://storage.cloud.google.com/dscv/public/images/logo-green.svg",
+    "organizationUrl": "http://www.r42.ca",
+    "supportUrl": "https://twitter.com/ralph_spandl",
+    "packageUrl": "https://datastudio.google.com/reporting/1p06tzmnFLNbY92hC2HjYWmjPRmpBI-gK/page/mNHw",
+    "devMode": true,
+    "components": [
+      {
+        "id": "r42_sunburst_v1",
+        "name": "sunburst",
+        "description": "Sunburst Visualization",
+        "iconUrl": "https://storage.cloud.google.com/dscv/public/images/suburst-icon.svg",
+        "resource": {
+            "js": "https://raw.githubusercontent.com/justin2names/experimental-visualizations/Updates-01/viz/sunburst-drilldown/sunburst/sunburst.js",
+            "config": "https://raw.githubusercontent.com/justin2names/experimental-visualizations/Updates-01/viz/sunburst-drilldown/webpack.config.js",
+            "css": "https://raw.githubusercontent.com/justin2names/experimental-visualizations/Updates-01/viz/sunburst-drilldown/sunburst/src/d3-sunburst.scss"
+        }
+      }
+    ]
+}
